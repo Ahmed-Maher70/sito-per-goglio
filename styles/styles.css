@@ -112,4 +112,58 @@ a {
         align-items: center;
         justify-content: center
     }
+
+    .time {
+        font-size: 22px;
+    }
+    
+    .down {
+        font-size: 14px;
+    }
+
+    .countdown {
+        height: 100px;
+        width: 100px;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .text2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .time {
+        font-size: 20px;
+    }
+    
+    .down {
+        font-size: 14px;
+    }
+
+    .countdown {
+        height: 90px;
+        width: 90px;
+    }
+
+    .names {
+        font-size: 3rem;
+    }
+
+    .text1 {
+        font-size: 12px;
+    }
+
+    .text2 {
+        font-size: 12px;
+    }
 }
