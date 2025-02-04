@@ -22,3 +22,8 @@ let x = setInterval(function(){
     }
 
 },1000);
+
+let loader = document.getElementById("preloader");
+window.addEventListener("load",function(){
+    loader.style.display = "none";
+})
